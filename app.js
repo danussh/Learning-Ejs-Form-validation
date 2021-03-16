@@ -5,7 +5,7 @@ const { check, validationResult } = require('express-validator')
 const app = express()
 const port = 3000
 
-// Set Templating Enginge
+// Seting Templating Enginge
 app.set('view engine', 'ejs')
 
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
